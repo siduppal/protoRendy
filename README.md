@@ -1,5 +1,5 @@
 # Rendy
-Quick prototype for playing around with [Mustachio](https://github.com/wildbit/mustachio) templating in Adaptive Cards
+Quick prototype for playing around with [Mustachio](https://github.com/wildbit/mustachio/wiki) templating in Adaptive Cards
 
 ## Usage
 Compile the project locally and then fire it up like so:
