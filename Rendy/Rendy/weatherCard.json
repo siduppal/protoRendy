@@ -1,0 +1,76 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "speak": "The forecast for Seattle January 20 is mostly clear with a High of 51 degrees and Low of 40 degrees",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "{{city}}",
+      "size": "large",
+      "isSubtle": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "{{date}}",
+      "spacing": "none"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "{{imageUrl}}",
+              "size": "small"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "{{temperature}}",
+              "size": "extraLarge",
+              "spacing": "none"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "{{units}}",
+              "weight": "bolder",
+              "spacing": "small"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Hi {{hi}}",
+              "horizontalAlignment": "left"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Lo {{lo}}",
+              "horizontalAlignment": "left",
+              "spacing": "none"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

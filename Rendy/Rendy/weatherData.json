@@ -1,0 +1,9 @@
+{
+  "city": "Seattle, WA",
+  "date": "September 18, 7:30 AM",
+  "imageUrl": "http://messagecardplayground.azurewebsites.net/assets/Mostly%20Cloudy-Square.png",
+  "temperature": "42",
+  "units": "°F",
+  "hi": "51",
+  "lo": "40"
+}

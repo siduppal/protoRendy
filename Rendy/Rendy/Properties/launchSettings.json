@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Rendy": {
+      "commandName": "Project",
+      "commandLineArgs": "--d weatherData.json --c weatherCard.json"
+    }
+  }
+}
